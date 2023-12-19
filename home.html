@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Concert+One&family=Poppins:wght@100&family=Roboto:wght@100&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     
     <style>
         .heading{
             font-weight: bolder;
             color: rgb(55, 114, 83);
             background-color: rgb(201, 237, 201);
+            font-family: 'Roboto', sans-serif;;
         }
         .angular{
             color: rgb(49, 3, 249);
         }
-        #list1{
+        ul{
             color: rgb(90, 50, 78);
             background-color: rgb(242, 211, 233);
+        }
+        ul li {
+            font-family: 'Concert One', sans-serif;;
+            list-style: none;
+        }
+        li::before{ 
+        content: "👉🏻";
         }
     </style>
 </head>
@@ -24,7 +35,7 @@
     <h1 class="heading">Career Objectives</h1>
     <p>to work in organization where i can learn and grow my skills and help organizational growth</p>
     <h1 class="heading">Professional Summary</h1>
-    <ul id="list1">
+    <ul>
         <li>
             Having 5 years of experience in developing Single page Web Applications using <span class="angular">Angular 8,</span> HTML5, CSS3, Bootstrap 5, JavaScript, ES6, TypeScript
         </li>
